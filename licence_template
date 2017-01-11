@@ -1,5 +1,5 @@
 /**************************************************************************
-**   corentin, 11/01/2017 2017
+**   %USER%, %DATE% %YEAR%
 
 **This file is part of easy_converter.
 **
@@ -16,26 +16,3 @@
 **You should have received a copy of the GNU General Public License
 **along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 **************************************************************************/
-
-#ifndef MAINFRAME_H
-#define MAINFRAME_H
-
-#include <QMainWindow>
-
-namespace Ui {
-class MainFrame;
-}
-
-class MainFrame : public QMainWindow
-{
-    Q_OBJECT
-
-public:
-    explicit MainFrame(QWidget *parent = 0);
-    ~MainFrame();
-
-private:
-    Ui::MainFrame *ui;
-};
-
-#endif // MAINFRAME_H
